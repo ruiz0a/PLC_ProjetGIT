@@ -4,12 +4,12 @@ VERSION : 0.1
    VAR_TEMP 
       temp_1 : Bool;
       temp_2 : Bool;
-      temp_2 : Bool;
+      temp_git : Bool;
    END_VAR
 
 
 BEGIN
-	// git test
+	// version branch evo
 	IF #temp_1 THEN
 	    // Statement section IF
 	    #temp_2 := true;
