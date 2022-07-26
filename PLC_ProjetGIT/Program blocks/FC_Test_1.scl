@@ -4,6 +4,7 @@ VERSION : 0.1
    VAR_TEMP 
       temp_1 : Bool;
       temp_2 : Bool;
+      temp_2 : Bool;
    END_VAR
 
 
