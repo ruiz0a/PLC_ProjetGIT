@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2022-07-26T12:27:54.8904999Z</Created>
+    <Created>2022-07-26T14:25:36.2749015Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -130,9 +130,12 @@
   <Token Text=";" UId="50" />
   <NewLine Num="2" UId="51" />
   <LineComment Inserted="false" NoClosingBracket="false" UId="52">
-    <Text UId="53"> use XML export to use ACT</Text>
+    <Text UId="53"> use XML export to use ACT + created branch</Text>
   </LineComment>
   <NewLine Num="1" UId="54" />
+  <LineComment Inserted="false" NoClosingBracket="false" UId="55">
+    <Text UId="56"> test merge</Text>
+  </LineComment>
 </StructuredText></NetworkSource>
           <ProgrammingLanguage>SCL</ProgrammingLanguage>
         </AttributeList>
