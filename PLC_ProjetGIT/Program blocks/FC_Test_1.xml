@@ -2,7 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
-    <Created>2022-07-26T09:35:04.325812Z</Created>
+    <Created>2022-07-26T09:36:38.0044753Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -128,7 +128,11 @@
   <NewLine Num="1" UId="48" />
   <Token Text="END_IF" UId="49" />
   <Token Text=";" UId="50" />
-  <NewLine Num="1" UId="51" />
+  <NewLine Num="2" UId="51" />
+  <LineComment Inserted="false" NoClosingBracket="false" UId="52">
+    <Text UId="53"> use XML export to use ACT</Text>
+  </LineComment>
+  <NewLine Num="1" UId="54" />
 </StructuredText></NetworkSource>
           <ProgrammingLanguage>SCL</ProgrammingLanguage>
         </AttributeList>
