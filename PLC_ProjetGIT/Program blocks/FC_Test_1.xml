@@ -130,7 +130,7 @@
   <Token Text=";" UId="50" />
   <NewLine Num="2" UId="51" />
   <LineComment Inserted="false" NoClosingBracket="false" UId="52">
-    <Text UId="53"> use XML export to use ACT</Text>
+    <Text UId="53"> use XML export to use ACT + created branch</Text>
   </LineComment>
   <NewLine Num="1" UId="54" />
   <LineComment Inserted="false" NoClosingBracket="false" UId="55">
