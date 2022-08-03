@@ -180,28 +180,35 @@
     <Call UId="24">
       <CallInfo Name="FC_Test_1" BlockType="FC" />
     </Call>
-    <Part Name="Coil" UId="25" />
+    <Call UId="25">
+      <CallInfo Name="FC_Test_3" BlockType="FC" />
+    </Call>
+    <Part Name="Coil" UId="26" />
   </Parts>
   <Wires>
-    <Wire UId="26">
+    <Wire UId="27">
       <Powerrail />
       <NameCon UId="23" Name="in" />
     </Wire>
-    <Wire UId="27">
+    <Wire UId="28">
       <IdentCon UId="21" />
       <NameCon UId="23" Name="operand" />
     </Wire>
-    <Wire UId="28">
+    <Wire UId="29">
       <NameCon UId="23" Name="out" />
       <NameCon UId="24" Name="en" />
     </Wire>
-    <Wire UId="29">
-      <NameCon UId="24" Name="eno" />
-      <NameCon UId="25" Name="in" />
-    </Wire>
     <Wire UId="30">
+      <NameCon UId="24" Name="eno" />
+      <NameCon UId="25" Name="en" />
+    </Wire>
+    <Wire UId="31">
+      <NameCon UId="25" Name="eno" />
+      <NameCon UId="26" Name="in" />
+    </Wire>
+    <Wire UId="32">
       <IdentCon UId="22" />
-      <NameCon UId="25" Name="operand" />
+      <NameCon UId="26" Name="operand" />
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
@@ -237,7 +244,7 @@
     <Access Scope="LiteralConstant" UId="21">
       <Constant>
         <ConstantType>Int</ConstantType>
-        <ConstantValue>2000</ConstantValue>
+        <ConstantValue>3000</ConstantValue>
       </Constant>
     </Access>
     <Access Scope="LocalVariable" UId="22">
