@@ -2,6 +2,7 @@
 <Document>
   <Engineering version="V17" />
   <DocumentInfo>
+    <Created>2022-08-09T12:11:46.4774781Z</Created>
     <ExportSetting>WithDefaults</ExportSetting>
     <InstalledProducts>
       <Product>
@@ -180,35 +181,28 @@
     <Call UId="24">
       <CallInfo Name="FC_Test_1" BlockType="FC" />
     </Call>
-    <Call UId="25">
-      <CallInfo Name="FC_Test_3" BlockType="FC" />
-    </Call>
-    <Part Name="Coil" UId="26" />
+    <Part Name="Coil" UId="25" />
   </Parts>
   <Wires>
-    <Wire UId="27">
+    <Wire UId="26">
       <Powerrail />
       <NameCon UId="23" Name="in" />
     </Wire>
-    <Wire UId="28">
+    <Wire UId="27">
       <IdentCon UId="21" />
       <NameCon UId="23" Name="operand" />
     </Wire>
-    <Wire UId="29">
+    <Wire UId="28">
       <NameCon UId="23" Name="out" />
       <NameCon UId="24" Name="en" />
     </Wire>
-    <Wire UId="30">
+    <Wire UId="29">
       <NameCon UId="24" Name="eno" />
-      <NameCon UId="25" Name="en" />
+      <NameCon UId="25" Name="in" />
     </Wire>
-    <Wire UId="31">
-      <NameCon UId="25" Name="eno" />
-      <NameCon UId="26" Name="in" />
-    </Wire>
-    <Wire UId="32">
+    <Wire UId="30">
       <IdentCon UId="22" />
-      <NameCon UId="26" Name="operand" />
+      <NameCon UId="25" Name="operand" />
     </Wire>
   </Wires>
 </FlgNet></NetworkSource>
